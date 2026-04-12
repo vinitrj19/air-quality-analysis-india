@@ -85,7 +85,7 @@ This project analyzes historical air quality data to:
 │── 📄 README.md
 │── 📄 city_day.csv
 │── 📄 analysis.ipynb
-│── 📁 images/
+│── 📁 ![AQI](images/aqi_relation.png)
 
 
 ---
