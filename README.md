@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![Data](https://img.shields.io/badge/Data-Real--World-orange)
 # 🌍 Air Quality Analysis & AQI Prediction
 
 A data science project focused on analyzing air pollution trends across major Indian cities and understanding the impact of PM2.5 on Air Quality Index (AQI).
