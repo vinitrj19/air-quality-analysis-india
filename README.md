@@ -67,25 +67,117 @@ This project analyzes historical air quality data to:
 - Pollution peaks during winter months
 - Coastal cities like Chennai show relatively better air quality
 ---
+# 🌍 Air Quality Analysis & AQI Prediction
+
+A data science project analyzing air pollution trends across major Indian cities using real-world data.
+
+---
+
+## 🚀 Project Overview
+
+Air pollution is one of the most critical environmental challenges in urban areas.
+
+This project explores AQI and PM2.5 data to:
+- Understand pollution patterns
+- Compare air quality across cities
+- Identify trends over time
+- Visualize environmental insights
+
+---
+
+## 📊 Dataset
+
+- Source: `city_day.csv`
+
+### Cities Analyzed:
+- Delhi
+- Mumbai
+- Bengaluru
+- Kolkata
+- Chennai
+
+### Features Used:
+- Date
+- City
+- PM2.5
+- AQI
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## 📈 Key Analysis
+
+### 🔹 Time-Series Trends
+Analyzing how AQI changes over time
+
+### 🔹 City-wise Comparison
+Identifying the most polluted cities
+
+### 🔹 PM2.5 vs AQI
+Understanding correlation between PM2.5 and AQI
+
+---
+
+## 📊 Visualizations
+
+### 📌 AQI vs PM2.5 Relationship
+![AQI Relation](images/aqi_relation.png)
+
+---
+
+### 📌 Average AQI by City
+![Average AQI](images/avg.png)
+
+---
+
+### 📌 AQI Trend Over Time
+![AQI Trend](images/d1.png)
+
+---
+
+## 🔍 Key Insights
+
+- Delhi consistently records the highest AQI levels
+- PM2.5 has a strong influence on AQI values
+- Pollution peaks during winter months
+- Coastal cities like Chennai show relatively better air quality
+
+---
 ## ⚠️ Challenges Faced
 
-- Missing values in PM2.5
-- Data inconsistency across cities
-- Time-series formatting
+- Handling missing PM2.5 values
+- Cleaning inconsistent time-series data
+- Selecting relevant features for analysis
 ---
 ## 🔮 Future Improvements
 
 - Add Machine Learning for AQI prediction
 - Include more pollutants (NO2, SO2)
-- Build interactive dashboard (Streamlit)
-- Real-time data integration
+- Build an interactive dashboard (Streamlit)
+- Integrate real-time pollution data
 ---
 ## 📂 Project Structure
-📁 Air-Quality-Analysis
-│── 📄 README.md
-│── 📄 city_day.csv
-│── 📄 analysis.ipynb
-│── 📁 ![AQI](images/aqi_relation.png)
+air-quality-analysis-india/
+│
+├── README.md
+├── AQI_Data.ipynb
+├── AQI_Data.html
+├── city_day.csv
+└── images/
+├── aqi_relation.png
+├── avg.png
+├── d1.png
+├── download.png
+
 
 
 ---
